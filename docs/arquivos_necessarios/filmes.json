@@ -1,0 +1,74 @@
+{
+  "filmes": [
+    {
+      "titulo": "Sombras do Amanhã",
+      "descricao": "Um herói improvável embarca em uma jornada para salvar o mundo de uma ameaça misteriosa.",
+      "data_lancamento": "2024-07-12",
+      "genero": ["Ação", "Aventura"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "O Portal Esquecido",
+      "descricao": "Uma jovem descobre um portal mágico e precisa restaurar o equilíbrio entre dois mundos.",
+      "data_lancamento": "2023-02-20",
+      "genero": ["Fantasia", "Drama"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "Horizonte Perdido",
+      "descricao": "Uma equipe de cientistas enfrenta criaturas desconhecidas em um planeta distante.",
+      "data_lancamento": "2022-09-05",
+      "genero": ["Ficção Científica"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "O Segredo da Montanha",
+      "descricao": "Dois amigos de infância se reencontram e precisam resolver um mistério antigo.",
+      "data_lancamento": "2024-03-11",
+      "genero": ["Mistério", "Drama"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "Linha de Fogo",
+      "descricao": "Uma policial tenta desvendar uma série de crimes ligados a uma organização secreta.",
+      "data_lancamento": "2023-08-29",
+      "genero": ["Ação", "Suspense"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "Rota Infinita",
+      "descricao": "Um grupo de amigos embarca em uma viagem de carro que muda suas vidas para sempre.",
+      "data_lancamento": "2022-12-14",
+      "genero": ["Comédia", "Drama"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "Códigos de Aço",
+      "descricao": "Um robô adquire consciência e precisa aprender o que significa ser humano.",
+      "data_lancamento": "2025-06-01",
+      "genero": ["Ficção Científica"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "Ecos do Silêncio",
+      "descricao": "Uma detetive enfrenta seu passado enquanto investiga um caso de desaparecimento.",
+      "data_lancamento": "2023-10-18",
+      "genero": ["Thriller", "Policial"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "O Último Prato",
+      "descricao": "Um chef tenta reconstruir sua carreira após um escândalo em um restaurante renomado.",
+      "data_lancamento": "2024-04-22",
+      "genero": ["Drama", "Culinária"],
+      "imagem": "https://placehold.co/230x300"
+    },
+    {
+      "titulo": "Vozes do Amanhã",
+      "descricao": "Uma jovem cantora tenta alcançar o sucesso enfrentando desafios e traições.",
+      "data_lancamento": "2023-01-09",
+      "genero": ["Musical", "Romance"],
+      "imagem": "https://placehold.co/230x300"
+    }
+  ]
+}
