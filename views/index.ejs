@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- carrega o style que está dentro de public -->
-    <link rel="stylesheet" href="/css/styles.css" />
-
-    <title>Filmes em Destaque</title>
-  </head>
+  <%- include('./partials/head') %>
   <body>
-    <nav>
-      <li>
-        <a href="/">Home</a>
-        <a href="#">Ação</a>
-        <a href="#">Aventura</a>
-        <a href="#">Comédia</a>
-      </li>
-    </nav>
+    <!-- menu de opções -->
+    <%- include('./partials/menu') %>
 
     <header>
       <h1>Filmes Mais Vistos</h1>
@@ -27,115 +13,10 @@
     <section class="filmes">
       <h2>Em Destaque</h2>
       <div class="cards">
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Sombras do Amanhã" />
-          <h3>Sombras do Amanhã</h3>
-          <p class="descricao">
-            Um herói improvável embarca em uma jornada para salvar o mundo de
-            uma ameaça misteriosa.
-          </p>
-          <p class="info"><strong>Data:</strong> 12/07/2024</p>
-          <p class="info"><strong>Gênero:</strong> Ação / Aventura</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="O Portal Esquecido" />
-          <h3>O Portal Esquecido</h3>
-          <p class="descricao">
-            Uma jovem descobre um portal mágico e precisa restaurar o equilíbrio
-            entre dois mundos.
-          </p>
-          <p class="info"><strong>Data:</strong> 20/02/2023</p>
-          <p class="info"><strong>Gênero:</strong> Fantasia / Drama</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Horizonte Perdido" />
-          <h3>Horizonte Perdido</h3>
-          <p class="descricao">
-            Uma equipe de cientistas enfrenta criaturas desconhecidas em um
-            planeta distante.
-          </p>
-          <p class="info"><strong>Data:</strong> 05/09/2022</p>
-          <p class="info"><strong>Gênero:</strong> Ficção Científica</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="O Segredo da Montanha" />
-          <h3>O Segredo da Montanha</h3>
-          <p class="descricao">
-            Dois amigos de infância se reencontram e precisam resolver um
-            mistério antigo.
-          </p>
-          <p class="info"><strong>Data:</strong> 11/03/2024</p>
-          <p class="info"><strong>Gênero:</strong> Mistério / Drama</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Linha de Fogo" />
-          <h3>Linha de Fogo</h3>
-          <p class="descricao">
-            Uma policial tenta desvendar uma série de crimes ligados a uma
-            organização secreta.
-          </p>
-          <p class="info"><strong>Data:</strong> 29/08/2023</p>
-          <p class="info"><strong>Gênero:</strong> Ação / Suspense</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Rota Infinita" />
-          <h3>Rota Infinita</h3>
-          <p class="descricao">
-            Um grupo de amigos embarca em uma viagem de carro que muda suas
-            vidas para sempre.
-          </p>
-          <p class="info"><strong>Data:</strong> 14/12/2022</p>
-          <p class="info"><strong>Gênero:</strong> Comédia / Drama</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Códigos de Aço" />
-          <h3>Códigos de Aço</h3>
-          <p class="descricao">
-            Um robô adquire consciência e precisa aprender o que significa ser
-            humano.
-          </p>
-          <p class="info"><strong>Data:</strong> 01/06/2025</p>
-          <p class="info"><strong>Gênero:</strong> Ficção Científica</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Ecos do Silêncio" />
-          <h3>Ecos do Silêncio</h3>
-          <p class="descricao">
-            Uma detetive enfrenta seu passado enquanto investiga um caso de
-            desaparecimento.
-          </p>
-          <p class="info"><strong>Data:</strong> 18/10/2023</p>
-          <p class="info"><strong>Gênero:</strong> Thriller / Policial</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="O Último Prato" />
-          <h3>O Último Prato</h3>
-          <p class="descricao">
-            Um chef tenta reconstruir sua carreira após um escândalo em um
-            restaurante renomado.
-          </p>
-          <p class="info"><strong>Data:</strong> 22/04/2024</p>
-          <p class="info"><strong>Gênero:</strong> Drama / Culinária</p>
-        </div>
-
-        <div class="card">
-          <img src="https://placehold.co/230x300" alt="Vozes do Amanhã" />
-          <h3>Vozes do Amanhã</h3>
-          <p class="descricao">
-            Uma jovem cantora tenta alcançar o sucesso enfrentando desafios e
-            traições.
-          </p>
-          <p class="info"><strong>Data:</strong> 09/01/2023</p>
-          <p class="info"><strong>Gênero:</strong> Musical / Romance</p>
-        </div>
+        <%- include('./partials/card') %> <%- include('./partials/card') %>
+        <%-include('./partials/card') %> <%- include('./partials/card') %>
+        <%-include('./partials/card') %> <%- include('./partials/card') %>
+        <%-include('./partials/card') %> <%- include('./partials/card') %>
       </div>
     </section>
   </body>

@@ -1,64 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Filmes de Ação</title>
-  </head>
+  <%- include('./partials/head') %>
   <body>
-    <!-- NAVBAR -->
-    <nav>
-      <li>
-        <a href="index.html">Home</a>
-        <a href="acao.html">Ação</a>
-        <a href="#">Aventura</a>
-        <a href="#">Comédia</a>
-      </li>
-    </nav>
+    <!-- menu de opções -->
+    <%- include('./partials/menu') %>
 
     <header>
       <h1>Filmes de Ação</h1>
       <p>Adrenalina e emoção do início ao fim</p>
     </header>
 
-    <!-- TABELA DE FILMES -->
-    <table>
-      <thead>
-        <tr>
-          <th>Poster</th>
-          <th>Título</th>
-          <th>Descrição</th>
-          <th>Data de Lançamento</th>
-          <th>Gênero</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <img src="https://placehold.co/230x300" alt="Sombras do Amanhã" />
-          </td>
-          <td>Sombras do Amanhã</td>
-          <td>
-            Um herói improvável embarca em uma jornada para salvar o mundo de
-            uma ameaça misteriosa.
-          </td>
-          <td>12/07/2024</td>
-          <td>Ação / Aventura</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="https://placehold.co/230x300" alt="Linha de Fogo" />
-          </td>
-          <td>Linha de Fogo</td>
-          <td>
-            Uma policial tenta desvendar uma série de crimes ligados a uma
-            organização secreta.
-          </td>
-          <td>29/08/2023</td>
-          <td>Ação / Suspense</td>
-        </tr>
-      </tbody>
-    </table>
+    <%- include('./partials/tabela') %>
   </body>
 </html>
