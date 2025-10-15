@@ -2,6 +2,9 @@
 <html lang="pt-br">
   <%- include('./partials/head') %>
   <body>
+    <!-- <h2>Debug dos dados</h2>
+    <pre><%= JSON.stringify(dados, null, 2) %></pre> -->
+
     <!-- menu de opções -->
     <%- include('./partials/menu') %>
 
@@ -12,11 +15,10 @@
 
     <section class="filmes">
       <h2>Em Destaque</h2>
+
       <div class="cards">
-        <%- include('./partials/card') %> <%- include('./partials/card') %>
-        <%-include('./partials/card') %> <%- include('./partials/card') %>
-        <%-include('./partials/card') %> <%- include('./partials/card') %>
-        <%-include('./partials/card') %> <%- include('./partials/card') %>
+        <% dados.forEach((filme)=>{ %> <%- include('./partials/card', { filme:
+        filme }) %> <%}) %>
       </div>
     </section>
   </body>

@@ -19,11 +19,20 @@ app.use(express.static('public'));
 
 // rota home
 app.get('/',(req,res)=>{
-    res.render('index')
+    dadosFilmes = [
+        {
+            titulo: "Sombras do Amanhã",
+            descricao: "Um herói improvável embarca em uma jornada para salvar o mundo de uma ameaça misteriosa.",
+            data_lancamento: "2024-07-12",
+            genero: ["Ação", "Aventura"],
+            imagem: "https://placehold.co/230x300"
+        }
+    ]
+    res.render('index',{titulo:'Home',dados:dadosFilmes})
 })
 
 app.get('/acao',(req,res)=>{
-    res.render('acao')
+    res.render('acao',{titulo:'Filmes de Ação'})
 })
 
 // rota de erro 404
